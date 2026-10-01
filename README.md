@@ -133,22 +133,16 @@ The encoded PowerShell command was decoded during the investigation.
 The decoded command performed a harmless test action:
 
 ```powershell
-Write-Output "SOC Project 2 - Suspicious PowerShell Test"## PowerShell Command Analysis
-
-The encoded PowerShell command was decoded during the investigation.
-
-The decoded command performed a harmless test action:
-
-```powershell
 Write-Output "SOC Project 2 - Suspicious PowerShell Test"
+```
 
-A subsequent Get-Date command recorded:
+A subsequent `Get-Date` command recorded:
 
 September 28, 2026 — 02:50:08 AM
 
 This confirmed that the activity was part of a controlled security testing exercise rather than an attempt to execute a malicious payload.
 
-PowerShell Operational Logging
+## PowerShell Operational Logging
 
 PowerShell Operational logging was also examined.
 
